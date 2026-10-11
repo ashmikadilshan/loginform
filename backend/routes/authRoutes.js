@@ -20,6 +20,7 @@ app.get("/", (req, res) => {
 app.use("/api/auth", authRoutes);
 
 
+
 const startServer = async () => {
   try {
     await connectToMongoDB();
